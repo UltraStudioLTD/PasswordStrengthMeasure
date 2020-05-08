@@ -1,0 +1,148 @@
+/*Other Styles */
+#progress {
+	width: 0%;
+	white-space: nowrap;
+	text-wrap: none;
+  height: 50px;
+}
+
+#progress-container {
+  border: solid 1px black;
+  width: 200px;
+  background-color: white;
+}
+#container{
+    border:solid 1px black;
+    width: 202px;
+    align-items: center;
+    margin: auto;
+}
+
+#bg #title{
+    font-family: Custom-Font;
+    font-size: 30px;
+}
+/*My Styles*/
+/* Styles */
+
+#bg{
+	height: 100%;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	background: linear-gradient(124deg, red, red, red, red, orange, yellow, green, blue, purple, purple, purple);
+	background-size: 1800% 1800%;
+	-webkit-animation: rainbow 18s ease infinite;
+	-moz-animation: rainbow 18s ease infinite;
+	-o-animation: rainbow 18s ease infinite;
+	animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+	0% {
+		background-position: 0% 82%
+	}
+	50% {
+		background-position: 100% 19%
+	}
+	100% {
+		background-position: 0% 82%
+	}
+}
+
+*{
+    text-align: center;
+    justify-content: center;
+}
+
+@-moz-keyframes rainbow {
+	0% {
+		background-position: 0% 82%
+	}
+	50% {
+		background-position: 100% 19%
+	}
+	100% {
+		background-position: 0% 82%
+	}
+}
+
+@-o-keyframes rainbow {
+	0% {
+		background-position: 0% 82%
+	}
+	50% {
+		background-position: 100% 19%
+	}
+	100% {
+		background-position: 0% 82%
+	}
+}
+
+@keyframes rainbow {
+	0% {
+		background-position: 0% 82%
+	}
+	50% {
+		background-position: 100% 19%
+	}
+	100% {
+		background-position: 0% 82%
+	}
+}
+
+@font-face {
+    font-family: Custom-Font;
+    src: url(Custom-Font.otf);
+}
+
+@font-face {
+    font-family: Amax;
+    src: url(amax.ttf);
+}
+
+#Results{
+    font-family: Amax;
+    font-size: 14px;
+    font: bold;
+}
+
+.Title{
+    font-family: Custom-Font;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+button:hover {background-color: lime}
+  
+button:active {
+    background-color: lime;
+    box-shadow: 0 5px gray;
+    transform: translateY(4px);
+}
+
+input[type=text], select {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
